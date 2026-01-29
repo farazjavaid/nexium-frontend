@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 69 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 2307">
+<g id="Group 2305">
+<circle id="Ellipse 96" cx="35" cy="6" r="5" fill="var(--fill-0, white)" stroke="var(--stroke-0, black)" stroke-width="2"/>
+<circle id="Ellipse 97" cx="34.5" cy="62.5" r="5.5" fill="var(--fill-0, white)" stroke="var(--stroke-0, black)" stroke-width="2"/>
+<line id="Line 128" x1="35" y1="58" x2="35" y2="11" stroke="var(--stroke-0, black)" stroke-width="2"/>
+</g>
+<g id="Group 2306">
+<circle id="Ellipse 96_2" cx="63" cy="35" r="5" transform="rotate(90 63 35)" fill="var(--fill-0, white)" stroke="var(--stroke-0, black)" stroke-width="2"/>
+<circle id="Ellipse 97_2" cx="6.5" cy="34.5" r="5.5" transform="rotate(90 6.5 34.5)" fill="var(--fill-0, white)" stroke="var(--stroke-0, black)" stroke-width="2"/>
+<line id="Line 128_2" x1="11" y1="35" x2="58" y2="35" stroke="var(--stroke-0, black)" stroke-width="2"/>
+</g>
+<path id="Ellipse 98" d="M35 21C43.3144 21 50 27.5216 50 35.5C50 43.4784 43.3144 50 35 50C26.6856 50 20 43.4784 20 35.5C20 27.5216 26.6856 21 35 21Z" fill="var(--fill-0, white)" stroke="var(--stroke-0, black)" stroke-width="2"/>
+<g id="Group 2304">
+<path id="Vector" d="M34.9878 50C43.2788 50 50 43.5081 50 35.5C50 27.4919 43.2788 21 34.9878 21C26.6968 21 19.9756 27.4919 19.9756 35.5C19.9756 43.5081 26.6968 50 34.9878 50Z" stroke="var(--stroke-0, black)" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector_2" d="M34.9879 48.1689C37.5149 48.1689 39.5634 42.4969 39.5634 35.5C39.5634 28.5032 37.5149 22.8311 34.9879 22.8311C32.4609 22.8311 30.4124 28.5032 30.4124 35.5C30.4124 42.4969 32.4609 48.1689 34.9879 48.1689Z" stroke="var(--stroke-0, #267275)" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector_3" d="M34.9878 40.135C42.2318 40.135 48.1042 38.0598 48.1042 35.5C48.1042 32.9402 42.2318 30.8651 34.9878 30.8651C27.7438 30.8651 21.8714 32.9402 21.8714 35.5C21.8714 38.0598 27.7438 40.135 34.9878 40.135Z" stroke="var(--stroke-0, #267275)" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

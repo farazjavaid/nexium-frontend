@@ -39,7 +39,6 @@ export default function PremiumSolutionsSection({
   return (
     <section className="w-full py-16 lg:py-24 px-4 lg:px-20 relative" style={{ backgroundColor: "#eee" }}>
       <div className="max-w-7xl mx-auto relative z-10">
-        {/* Section Heading */}
         <div className="mb-12 lg:mb-20">
           <p
             className="text-[#353638] font-semibold mb-2"
@@ -71,11 +70,9 @@ export default function PremiumSolutionsSection({
           </p>
         </div>
 
-        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-12 lg:gap-y-26 max-w-[718px] mx-auto py-12">
           {services.map((service, index) => (
             <div key={index} className="relative">
-              {/* Background Icon */}
               <Image
                 src={service.icon}
                 alt=""
@@ -84,7 +81,6 @@ export default function PremiumSolutionsSection({
                 className="absolute top-[-30px] left-[-40px]"
               />
 
-              {/* Title */}
               <h3
                 className="text-[#353638] font-bold uppercase relative z-10"
                 style={{
@@ -96,7 +92,6 @@ export default function PremiumSolutionsSection({
                 {service.title}
               </h3>
 
-              {/* Description */}
               <p
                 className="text-[#727272] max-w-[320px] relative z-10"
                 style={{

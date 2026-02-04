@@ -74,7 +74,6 @@ export default function TestimonialSection({
     <section className="w-full py-16 lg:py-24 px-4 lg:px-20 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="max-w-[1228px] mx-auto">
-          {/* Testimonial Quote */}
           <blockquote
             className="text-[#353638] text-center mb-12"
             style={{
@@ -86,7 +85,6 @@ export default function TestimonialSection({
             &ldquo;{currentTestimonial.quote}&rdquo;
           </blockquote>
 
-          {/* Author Info */}
           <div className="text-center mb-8">
             <p
               className="text-[#353638] mb-2"
@@ -110,9 +108,7 @@ export default function TestimonialSection({
             </p>
           </div>
 
-          {/* Navigation Controls */}
           <div className="flex items-center justify-center gap-6">
-            {/* Previous Button */}
             <button
               onClick={handlePrevious}
               className="w-[51px] h-[33px] bg-white border border-[#353638]/50 hover:bg-[#267275] hover:border-[#267275] flex items-center justify-center transition-all duration-300 group"
@@ -133,7 +129,6 @@ export default function TestimonialSection({
               </svg>
             </button>
 
-            {/* Index Display */}
             <span
               className="text-[#353638]"
               style={{
@@ -145,7 +140,6 @@ export default function TestimonialSection({
               {String(currentIndex + 1).padStart(2, "0")}/{String(testimonials.length).padStart(2, "0")}
             </span>
 
-            {/* Next Button */}
             <button
               onClick={handleNext}
               className="w-[51px] h-[33px] bg-white border border-[#353638]/50 hover:bg-[#267275] hover:border-[#267275] flex items-center justify-center transition-all duration-300 group"

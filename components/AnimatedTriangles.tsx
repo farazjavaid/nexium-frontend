@@ -3,10 +3,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-/**
- * AnimatedTriangles Component
- * Triangles with scale animations that will fade out via parent animation
- */
 export default function AnimatedTriangles() {
   return (
     <div
@@ -16,7 +12,6 @@ export default function AnimatedTriangles() {
         height: "888.666px",
       }}
     >
-      {/* Triangle 1 - Small (Bottom Right) - DARK */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}
@@ -40,7 +35,6 @@ export default function AnimatedTriangles() {
         </div>
       </motion.div>
 
-      {/* Triangle 2 - Medium (Left) - LIGHT */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}
@@ -65,7 +59,6 @@ export default function AnimatedTriangles() {
         </div>
       </motion.div>
 
-      {/* Triangle 3 - Large (Center/Left) - LIGHT */}
       <motion.div
         initial={{ scale: 1 }}
         animate={{ scale: 0.5 }}
@@ -89,7 +82,6 @@ export default function AnimatedTriangles() {
         </div>
       </motion.div>
 
-      {/* Triangle 4 - Top Right - DARK */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}

@@ -31,10 +31,7 @@ export default function Header({ transparent = false, whiteLogo = false, whiteMe
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Determine logo based on scroll state
   const logoSrc = isScrolled ? imgLogoDark : (whiteLogo ? imgLogoWhite : imgLogoDark);
-
-  // Determine text color based on scroll state
   const textColor = isScrolled ? 'text-[#353638]' : (whiteLogo ? 'text-white' : 'text-[#353638]');
 
   const getPageTitle = () => {

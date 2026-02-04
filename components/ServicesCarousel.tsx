@@ -93,7 +93,6 @@ export default function ServicesCarousel({
     };
   }, [emblaApi, onScroll, onSelect]);
 
-  // Auto-play
   useEffect(() => {
     if (!emblaApi) return;
 
@@ -174,7 +173,6 @@ export default function ServicesCarousel({
             </div>
           </div>
 
-          {/* Navigation Arrows */}
           <button
             onClick={scrollPrev}
             className="absolute left-0 top-1/2 -translate-y-1/2 w-10 h-10 lg:w-12 lg:h-12 bg-white hover:bg-[#267275] text-[#353638] hover:text-white border border-[#ddd] hover:border-[#267275] rounded flex items-center justify-center transition-all duration-300 shadow-md z-20"
@@ -215,7 +213,6 @@ export default function ServicesCarousel({
             </svg>
           </button>
 
-          {/* Pagination Dots */}
           <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex justify-center gap-2">
             {services.map((_, index) => (
               <button

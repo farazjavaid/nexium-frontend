@@ -21,7 +21,6 @@ export default function Navbar({ isScrolled = false, whiteMenu = false }: Navbar
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-    // Prevent body scroll when menu is open
     if (!isOpen) {
       document.body.style.overflow = "hidden";
     } else {
@@ -33,7 +32,6 @@ export default function Navbar({ isScrolled = false, whiteMenu = false }: Navbar
 
   return (
     <>
-      {/* Hamburger Button */}
       <button
         onClick={toggleMenu}
         className="flex flex-col gap-1.5 w-8 h-6 justify-center items-center relative z-[70] focus:outline-none focus-visible:outline-none"
@@ -56,7 +54,6 @@ export default function Navbar({ isScrolled = false, whiteMenu = false }: Navbar
         ></span>
       </button>
 
-      {/* Full Page Menu Overlay */}
       <div
         className={`fixed top-[100px] lg:top-[110px] left-0 right-0 bottom-0 bg-white z-50 transition-all duration-500 ease-in-out ${
           isOpen
@@ -92,7 +89,6 @@ export default function Navbar({ isScrolled = false, whiteMenu = false }: Navbar
               ))}
             </ul>
 
-            {/* Contact Info */}
             <div
               className={`mt-16 lg:mt-20 transform transition-all duration-500 ease-out ${
                 isOpen

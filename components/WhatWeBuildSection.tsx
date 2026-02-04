@@ -66,7 +66,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
     };
   }, [emblaApi, onSelect]);
 
-  // Get visible indices (left, center, right)
   const getVisibleIndices = () => {
     const prevIndex = (selectedIndex - 1 + services.length) % services.length;
     const nextIndex = (selectedIndex + 1) % services.length;
@@ -75,17 +74,14 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
 
   const { prevIndex, centerIndex, nextIndex } = getVisibleIndices();
 
-  // Calculate translateX for sliding animation
   const getTranslateX = (position: 'left' | 'center' | 'right') => {
     if (!isAnimating || !direction) return 0;
 
-    const slideDistance = 20; // Approximate card width + gap
+    const slideDistance = 20;
 
     if (direction === 'next') {
-      // Sliding left when going to next
       return -slideDistance;
     } else {
-      // Sliding right when going to prev
       return slideDistance;
     }
   };
@@ -99,7 +95,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
       </div>
       <div className="max-w-7xl mx-auto px-4 lg:px-20">
         <div className="relative">
-          {/* Embla Carousel - Hidden for smooth scrolling */}
           <div className="overflow-hidden opacity-0 h-0" ref={emblaRef}>
             <div className="flex">
               {services.map((_, index) => (
@@ -108,9 +103,7 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
             </div>
           </div>
 
-          {/* Visual Display - 3 Cards Layout */}
           <div className="relative flex items-center justify-center min-h-[520px]">
-            {/* Left Card */}
             <div
               className="absolute transition-all duration-500 ease-in-out"
               style={{
@@ -147,7 +140,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
               </div>
             </div>
 
-            {/* Center Card (Active/Popup) */}
             <div
               className="relative transition-all duration-500 ease-in-out"
               style={{
@@ -183,7 +175,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
               </div>
             </div>
 
-            {/* Right Card */}
             <div
               className="absolute transition-all duration-500 ease-in-out"
               style={{
@@ -221,7 +212,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
             </div>
           </div>
 
-          {/* Navigation Arrows */}
           <button
             onClick={scrollPrev}
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-16 w-12 h-12 bg-white hover:bg-[#267275] text-[#353638] hover:text-white border border-[#ddd] hover:border-[#267275] rounded flex items-center justify-center transition-all duration-300 shadow-md z-20 focus:outline-none focus-visible:outline-none"

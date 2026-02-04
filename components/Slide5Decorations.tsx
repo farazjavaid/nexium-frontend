@@ -6,7 +6,6 @@ import Image from "next/image";
 export default function Slide5Decorations() {
   return (
     <>
-      {/* Group 329 SVG - top right corner */}
       <div className="absolute right-[400px] top-[0px] w-[300px] h-[160px]">
         <Image
           src="/images/landing/Group 329.svg"
@@ -16,7 +15,6 @@ export default function Slide5Decorations() {
         />
       </div>
 
-      {/* Group 1 SVG - bottom right corner */}
       <div className="absolute right-[50px] bottom-[50px] w-[200px] h-[200px]">
         <Image
           src="/images/landing/Group 1.svg"
@@ -26,7 +24,6 @@ export default function Slide5Decorations() {
         />
       </div>
 
-      {/* Circular gradient - bottom center */}
       <motion.div
         className="absolute left-1/2 -translate-x-1/2 top-[561px] w-[173px] h-[173px]"
         animate={{

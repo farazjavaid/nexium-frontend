@@ -7,14 +7,13 @@ import ClientLogosSection from "@/components/ClientLogosSection";
 import OutgrownSection from "@/components/OutgrownSection";
 import PremiumSolutionsSection from "@/components/PremiumSolutionsSection";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";
-import PortfolioGridSection from "@/components/PortfolioGridSection";
+import ContactFormSection from "@/components/ContactFormSection";
 import TestimonialSection from "@/components/TestimonialSection";
 import TeamCTASection from "@/components/TeamCTASection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
   const [heroSlide, setHeroSlide] = useState(0);
-  // Client logos data
   const clientLogos = [
     "/images/about-us/client-logo-1.png",
     "/images/about-us/client-logo-2.png",
@@ -25,14 +24,12 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white">
-      {/* Header */}
       <Header
         transparent
         whiteLogo={heroSlide === 2 || heroSlide === 3}
         whiteMenu={heroSlide === 2 || heroSlide === 3}
       />
 
-      {/* Landing Hero Section */}
       <LandingHeroSection
         heading="DIGITAL SOLUTIONS THAT DRIVE BUSINESS"
         description="We're a Melbourne-based team of full-stack developers specialising in Shopify, WordPress, Laravel, and React.js. Whether you're scaling fast, replatforming, or building from scratch - we turn complex requirements into high-performing digital platforms."
@@ -42,26 +39,20 @@ export default function Home() {
         onSlideChange={setHeroSlide}
       />
 
-      {/* Client Logos */}
       <ClientLogosSection
         logos={clientLogos}
         title="Our Clients"
         backgroundColor="#312c2c"
       />
 
-      {/* Outgrown Section (with stats) */}
       <OutgrownSection />
 
-      {/* Premium Solutions Section (with service cards) */}
       <PremiumSolutionsSection />
 
-      {/* Why Clients Choose Us */}
       <WhyChooseUsSection />
 
-      {/* Testimonial Section */}
       <TestimonialSection />
 
-      {/* CTA Section */}
       <TeamCTASection
         topText="Ready to take the next step?"
         heading="Let's make it happen smarter, faster & better"
@@ -69,7 +60,8 @@ export default function Home() {
         buttonLink="/contact-us"
       />
 
-      {/* Footer */}
+      <ContactFormSection/>
+
       <Footer />
     </div>
   );

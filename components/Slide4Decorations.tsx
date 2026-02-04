@@ -6,7 +6,6 @@ import Image from "next/image";
 export default function Slide4Decorations() {
   return (
     <>
-      {/* Group 329 SVG - top right corner */}
       <div className="absolute right-[400px] top-[0px] w-[300px] h-[160px]">
         <Image
           src="/images/landing/Group 329.svg"
@@ -34,7 +33,6 @@ export default function Slide4Decorations() {
         />
       </motion.div>
 
-      {/* Group 14 graphic - bottom half hidden */}
       <div className="absolute left-[66px] bottom-0 w-[800px] h-[400px] overflow-hidden">
         <motion.div 
           animate={{
@@ -56,7 +54,6 @@ export default function Slide4Decorations() {
         </motion.div>
       </div>
 
-      {/* Group 1 SVG - bottom right corner */}
       <div className="absolute right-[50px] bottom-[50px] w-[200px] h-[200px]">
         <Image
           src="/images/landing/Group 1.svg"

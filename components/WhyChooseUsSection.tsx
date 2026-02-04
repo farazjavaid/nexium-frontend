@@ -74,9 +74,9 @@ export default function WhyChooseUsSection({
             >
               <div className="flex items-start gap-4">
                 <span
+                  className="font-montserrat"
                   style={{
                     color: "#267275",
-                    fontFamily: "var(--font-montserrat)",
                     fontSize: "18px",
                     fontWeight: 800,
                   }}

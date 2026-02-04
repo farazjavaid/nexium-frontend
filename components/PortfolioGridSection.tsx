@@ -44,7 +44,6 @@ export default function PortfolioGridSection({
   return (
     <section className="w-full py-16 lg:py-24 px-4 lg:px-20 bg-white">
       <div className="max-w-7xl mx-auto">
-        {/* Section Heading */}
         <h2
           className="text-[#353638] font-normal text-center uppercase mb-12 lg:mb-16"
           style={{
@@ -55,7 +54,6 @@ export default function PortfolioGridSection({
           See what we have built
         </h2>
 
-        {/* Portfolio Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
           {projects.map((project, index) => (
             <div
@@ -63,7 +61,6 @@ export default function PortfolioGridSection({
               className="group relative overflow-hidden cursor-pointer"
               style={{ backgroundColor: project.backgroundColor }}
             >
-              {/* Project Image */}
               <div className="relative w-full aspect-[389/371] overflow-hidden">
                 <Image
                   src={project.image}
@@ -72,7 +69,6 @@ export default function PortfolioGridSection({
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
 
-                {/* Overlay on hover */}
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="text-center text-white">
                     <h3
@@ -99,7 +95,6 @@ export default function PortfolioGridSection({
                 </div>
               </div>
 
-              {/* Project Info */}
               <div className="p-6 bg-white">
                 <h3
                   className="text-[#353638] font-normal"

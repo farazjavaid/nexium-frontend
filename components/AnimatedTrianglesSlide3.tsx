@@ -3,10 +3,6 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-/**
- * AnimatedTrianglesSlide3 Component
- * 12 white triangles for Slide 3 with teal background
- */
 export default function AnimatedTrianglesSlide3() {
   return (
     <div
@@ -16,8 +12,6 @@ export default function AnimatedTrianglesSlide3() {
         height: "1080px",
       }}
     >
-      {/* TOP ROW - 4 triangles */}
-      {/* Triangle 1 - Top Row Position 1 - Polygon 66 */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}
@@ -41,7 +35,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* Triangle 2 - Top Row Position 2 */}
       <motion.div
         initial={{ scale: 1.0 }}
         animate={{ scale: 0.5 }}
@@ -65,7 +58,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* Triangle 3 - Top Row Position 3 */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}
@@ -90,7 +82,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* Triangle 4 - Top Row Position 4 */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}
@@ -114,8 +105,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* MIDDLE ROW - 4 triangles */}
-      {/* Triangle 5 - Middle Row Position 1 */}
       <motion.div
         initial={{ scale: 1.0 }}
         animate={{ scale: 0.5 }}
@@ -139,7 +128,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* Triangle 6 - Middle Row Position 2 */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}
@@ -164,7 +152,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* Triangle 7 - Middle Row Position 3 */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}
@@ -188,7 +175,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* Triangle 8 - Middle Row Position 4 */}
       <motion.div
         initial={{ scale: 1.0 }}
         animate={{ scale: 0.5 }}
@@ -212,8 +198,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* BOTTOM ROW - 4 triangles */}
-      {/* Triangle 9 - Bottom Row Position 1 */}
       <motion.div
         initial={{ scale: 1.0 }}
         animate={{ scale: 0.5 }}
@@ -238,7 +222,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* Triangle 10 - Bottom Row Position 2 */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}
@@ -262,7 +245,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* Triangle 11 - Bottom Row Position 3 */}
       <motion.div
         initial={{ scale: 0.5 }}
         animate={{ scale: 2.0 }}
@@ -287,7 +269,6 @@ export default function AnimatedTrianglesSlide3() {
         </div>
       </motion.div>
 
-      {/* Triangle 12 - Bottom Row Position 4 */}
       <motion.div
         initial={{ scale: 1.0 }}
         animate={{ scale: 0.5 }}

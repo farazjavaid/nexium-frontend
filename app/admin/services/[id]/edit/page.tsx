@@ -8,6 +8,11 @@ import Textarea from '@/components/admin/FormComponents/Textarea';
 import Button from '@/components/admin/FormComponents/Button';
 import { serviceService } from '@/lib/services/serviceService';
 
+// Allow dynamic routes in static export
+export function generateStaticParams() {
+  return [];
+}
+
 export default function EditServicePage() {
   const router = useRouter();
   const params = useParams();

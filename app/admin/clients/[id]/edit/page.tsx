@@ -11,6 +11,11 @@ import { clientService } from '@/lib/services/clientService';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
+// Allow dynamic routes in static export
+export function generateStaticParams() {
+  return [];
+}
+
 export default function EditClientPage() {
   const router = useRouter();
   const params = useParams();

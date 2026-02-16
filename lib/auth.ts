@@ -17,6 +17,7 @@ export const TOKEN_STORAGE_KEY = 'nexium_admin_token';
 export const authService = {
   login: async (email: string, password: string): Promise<boolean> => {
     try {
+      console.log('🔍 Login API URL:', `${API_URL}/api/login`);
       const response = await fetch(`${API_URL}/api/login`, {
         method: 'POST',
         headers: {
@@ -27,6 +28,7 @@ export const authService = {
       });
 
       const data = await response.json();
+      console.log('📥 Login Response:', { status: response.status, data });
 
       if (response.ok && data.success) {
         localStorage.setItem(AUTH_STORAGE_KEY, JSON.stringify(data.data.user));

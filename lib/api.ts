@@ -1,3 +1,4 @@
+// const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://cpanel.affectionate-magenta-kangaroo.39-61-46-46.cpanel.site';
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 const TOKEN_STORAGE_KEY = 'nexium_admin_token';
 

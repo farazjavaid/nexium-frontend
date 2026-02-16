@@ -12,6 +12,11 @@ import { projectService } from '@/lib/services/projectService';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
 
+// Allow dynamic routes in static export
+export function generateStaticParams() {
+  return [];
+}
+
 export default function EditProjectPage() {
   const router = useRouter();
   const params = useParams();

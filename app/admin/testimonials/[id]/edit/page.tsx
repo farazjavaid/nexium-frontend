@@ -9,6 +9,11 @@ import Toggle from '@/components/admin/FormComponents/Toggle';
 import Button from '@/components/admin/FormComponents/Button';
 import { testimonialService } from '@/lib/services/testimonialService';
 
+// Allow dynamic routes in static export
+export function generateStaticParams() {
+  return [];
+}
+
 export default function EditTestimonialPage() {
   const router = useRouter();
   const params = useParams();

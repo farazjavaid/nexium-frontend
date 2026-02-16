@@ -60,11 +60,19 @@ export default function ProjectShowcaseSection({
           SEE WHAT WE HAVE BUILT
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-          {projects.map((project, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8">
+          {projects.map((project, index) => {
+            const rowIndex = Math.floor(index / 2);
+            const isFirstInRow = index % 2 === 0;
+            const isEvenRow = rowIndex % 2 === 0;
+            const colSpan = isEvenRow
+              ? isFirstInRow ? "md:col-span-8" : "md:col-span-4"
+              : isFirstInRow ? "md:col-span-4" : "md:col-span-8";
+
+            return (
             <div
               key={index}
-              className="relative group overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-[1.02]"
+              className={`relative group overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-[1.02] ${colSpan}`}
               style={{
                 backgroundColor: project.bgColor,
                 minHeight: "400px",
@@ -104,7 +112,8 @@ export default function ProjectShowcaseSection({
                 </div>
               </div>
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

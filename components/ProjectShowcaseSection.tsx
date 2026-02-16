@@ -66,8 +66,8 @@ export default function ProjectShowcaseSection({
             const isFirstInRow = index % 2 === 0;
             const isEvenRow = rowIndex % 2 === 0;
             const colSpan = isEvenRow
-              ? isFirstInRow ? "md:col-span-8" : "md:col-span-4"
-              : isFirstInRow ? "md:col-span-4" : "md:col-span-8";
+              ? isFirstInRow ? "md:col-span-7" : "md:col-span-4"
+              : isFirstInRow ? "md:col-span-5" : "md:col-span-8";
 
             return (
             <div

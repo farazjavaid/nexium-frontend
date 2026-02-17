@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
         hostname: 'www.figma.com',
         pathname: '/api/mcp/asset/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'affectionate-magenta-kangaroo.39-61-46-46.cpanel.site',
+        pathname: '/**',
+      },
     ],
     dangerouslyAllowSVG: true,
     contentDispositionType: 'attachment',

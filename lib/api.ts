@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://affectionate-magenta-kangaroo.39-61-46-46.cpanel.site';
+const API_URL = '';
 const TOKEN_STORAGE_KEY = 'nexium_admin_token';
 
 interface ApiResponse<T = any> {

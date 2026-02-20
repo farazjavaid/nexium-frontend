@@ -12,6 +12,19 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Custom font utilities — Figma se match karne ke liye */
+@utility font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+@utility font-josefin {
+  font-family: var(--font-josefin);
+}
+
+@utility font-mona {
+  font-family: var(--font-mona-sans);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

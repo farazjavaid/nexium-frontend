@@ -4,8 +4,8 @@ export default function ContactFormSection() {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-20">
           <div className="flex flex-col justify-start pt-4">
-            <p className="text-[#353638] text-[22px] lg:text-[28px] mb-10">Collaborate with us</p>
-            <h2 className="text-[56px] lg:text-[80px] text-[#353638] font-normal capitalize mb-8 leading-[1.15] tracking-[-0.8px]">
+            <p className="text-[#353638] font-montserrat font-semibold text-[22px] lg:text-[28px] mb-10">Collaborate with us</p>
+            <h2 className="text-[56px] lg:text-[80px] text-[#353638] font-montserrat font-normal capitalize mb-8 leading-[1.15] tracking-[-0.8px]">
               Let&apos;s Build <br /> Something <br /> Great
             </h2>
             <p className="text-[#353638] text-[18px] lg:text-[22px] leading-[1.6] max-w-lg">
@@ -19,14 +19,14 @@ export default function ContactFormSection() {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="w-full text-[22px] text-[#a2a2a2] bg-transparent border-none outline-none placeholder:text-[#a2a2a2]"
+                  className="w-full font-montserrat text-[22px] text-[#a2a2a2] bg-transparent border-none outline-none placeholder:text-[#a2a2a2]"
                 />
               </div>
               <div className="border-b-2 border-[#e4e4e4] pb-3">
                 <input
                   type="email"
                   placeholder="Email address"
-                  className="w-full text-[22px] text-[#a2a2a2] bg-transparent border-none outline-none placeholder:text-[#a2a2a2]"
+                  className="w-full font-montserrat text-[22px] text-[#a2a2a2] bg-transparent border-none outline-none placeholder:text-[#a2a2a2]"
                 />
               </div>
               <div className="border-b-2 border-[#e4e4e4] pb-3">
@@ -50,7 +50,7 @@ export default function ContactFormSection() {
               <div className="pt-20">
               <button
                 type="submit"
-                className="bg-[#267275] text-white px-16 py-5 text-[14px] tracking-[4.2px] uppercase font-bold hover:bg-[#1e5a5d] transition-colors w-full"
+                className="bg-[#267275] text-white px-16 py-5 text-[14px] tracking-[4.2px] uppercase font-montserrat font-bold hover:bg-[#1e5a5d] transition-colors w-full"
               >
                 Send
               </button>

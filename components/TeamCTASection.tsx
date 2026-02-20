@@ -29,15 +29,15 @@ export default function TeamCTASection({
         <div className="flex flex-col lg:flex-row items-center justify-between bg-[#267275] gap-8 px-8 lg:px-16 py-12 lg:py-16">
           <div>
             {topText && (
-              <p className="text-white text-xl mb-4">{topText}</p>
+              <p className="text-white font-montserrat text-xl mb-4">{topText}</p>
             )}
-            <h2 className="text-3xl lg:text-5xl text-white font-normal uppercase max-w-3xl">
+            <h2 className="text-3xl lg:text-5xl text-white font-montserrat font-normal uppercase max-w-3xl">
               {heading}
             </h2>
           </div>
           <button
             onClick={handleClick}
-            className="bg-white text-[#267275] px-8 py-4 text-sm tracking-widest uppercase font-bold hover:bg-gray-100 transition-colors whitespace-nowrap"
+            className="bg-white text-[#267275] px-8 py-4 text-sm tracking-widest uppercase font-montserrat font-bold hover:bg-gray-100 transition-colors whitespace-nowrap"
           >
             {buttonText}
           </button>

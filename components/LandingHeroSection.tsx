@@ -104,7 +104,7 @@ export default function LandingHeroSection({
           opacity: currentSlide === 0 ? 1 : 0
         }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="absolute left-1/2 top-1/2 lg:top-[189px] -translate-x-1/2 -translate-y-1/2 lg:translate-y-0 text-[32px] sm:text-[48px] lg:text-[75px] text-[#353638] uppercase font-montserrat font-normal w-full lg:w-auto px-4 lg:px-0"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[32px] sm:text-[48px] lg:text-[75px] text-[#353638] uppercase font-montserrat font-normal w-full lg:w-auto px-4 lg:px-0"
       >
         <div className="flex flex-col items-center gap-2 lg:hidden">
           <p className="leading-tight tracking-tight whitespace-nowrap">Digital Solutions</p>

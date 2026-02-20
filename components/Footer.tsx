@@ -12,8 +12,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[552px_228px_1fr] gap-x-12 gap-y-12 mb-12">
           <div>
-            <h3 className="text-white/50 font-montserrat text-[16px] uppercase mb-6 tracking-[-0.48px]">About Us</h3>
-            <p className="text-white font-montserrat text-[16px] leading-[26px] tracking-[-0.32px]">
+            <h3 className="text-white/50 text-[16px] uppercase mb-6 tracking-[-0.48px]">About Us</h3>
+            <p className="text-white text-[16px] leading-[26px] tracking-[-0.32px]">
               At NexiumTrio, we&apos;re more than just developers. we&apos;re collaborators, problem-solvers, and long-term partners.
               <br /><br />
               Whether you&apos;re scaling fast, replatforming, or building from scratch, we turn your requirements into high-performance platforms that reflect your vision and drive real results.
@@ -21,8 +21,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-white/50 font-montserrat text-[16px] uppercase mb-6 tracking-[-0.48px]">Services</h3>
-            <ul className="text-white font-montserrat text-[16px] tracking-[-0.32px] capitalize space-y-0" style={{ lineHeight: '37px' }}>
+            <h3 className="text-white/50 text-[16px] uppercase mb-6 tracking-[-0.48px]">Services</h3>
+            <ul className="text-white text-[16px] tracking-[-0.32px] capitalize space-y-0" style={{ lineHeight: '37px' }}>
               <li>Shopify eCommerce</li>
               <li>WordPress Development</li>
               <li>Laravel Web Applications</li>
@@ -32,8 +32,8 @@ export default function Footer() {
 
           <div className="space-y-12">
             <div>
-              <h3 className="text-white/50 font-montserrat text-[16px] uppercase mb-6 tracking-[-0.48px]">Address</h3>
-              <p className="text-white font-montserrat text-[16px] leading-[23.4px] tracking-[-0.32px]">
+              <h3 className="text-white/50 text-[16px] uppercase mb-6 tracking-[-0.48px]">Address</h3>
+              <p className="text-white text-[16px] leading-[23.4px] tracking-[-0.32px]">
                 Ranchview Dr. Richardson,<br />
                 Sydney, Australia<br />
                 27305
@@ -41,8 +41,8 @@ export default function Footer() {
             </div>
 
             <div>
-              <h3 className="text-white/50 font-montserrat text-[16px] uppercase mb-6 tracking-[-0.48px]">Contact</h3>
-              <p className="text-white font-montserrat text-[16px] leading-[23.4px] tracking-[-0.32px]">
+              <h3 className="text-white/50 text-[16px] uppercase mb-6 tracking-[-0.48px]">Contact</h3>
+              <p className="text-white text-[16px] leading-[23.4px] tracking-[-0.32px]">
                 support@nexiumtrio.com<br />
                 (047) 888 2359
               </p>
@@ -71,7 +71,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <p className="text-white/60 font-montserrat text-[14px] tracking-[-0.32px]">© 2025 Copyright - Nexium Trio | License</p>
+          <p className="text-white/60 text-[14px] tracking-[-0.32px]">© 2025 Copyright - Nexium Trio | License</p>
         </div>
 
         <div className="mt-[-20] flex justify-center relative">

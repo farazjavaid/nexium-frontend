@@ -41,7 +41,7 @@ export default function PremiumSolutionsSection({
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="mb-12 lg:mb-20">
           <p
-            className="text-[#353638] font-montserrat font-semibold mb-2"
+            className="text-[#353638] font-semibold mb-2"
             style={{
               fontSize: "22px",
               lineHeight: "67px",
@@ -50,7 +50,7 @@ export default function PremiumSolutionsSection({
             Elevating Ideas into
           </p>
           <h2
-            className="text-[#353638] font-montserrat font-light uppercase mb-8"
+            className="text-[#353638] font-light uppercase mb-8"
             style={{
               fontSize: "78px",
               lineHeight: "80px",
@@ -82,7 +82,7 @@ export default function PremiumSolutionsSection({
               />
 
               <h3
-                className="text-[#353638] font-montserrat font-bold uppercase relative z-10"
+                className="text-[#353638] font-bold uppercase relative z-10"
                 style={{
                   fontSize: "18px",
                   lineHeight: "36px",

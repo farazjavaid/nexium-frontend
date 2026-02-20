@@ -45,7 +45,7 @@ export default function PortfolioGridSection({
     <section className="w-full py-16 lg:py-24 px-4 lg:px-20 bg-white">
       <div className="max-w-7xl mx-auto">
         <h2
-          className="text-[#353638] font-montserrat font-normal text-center uppercase mb-12 lg:mb-16"
+          className="text-[#353638] font-normal text-center uppercase mb-12 lg:mb-16"
           style={{
             fontSize: "48px",
             lineHeight: "40px",
@@ -72,7 +72,7 @@ export default function PortfolioGridSection({
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                   <div className="text-center text-white">
                     <h3
-                      className="font-montserrat font-normal mb-2"
+                      className="font-normal mb-2"
                       style={{
                         fontSize: "18px",
                         lineHeight: "64px",
@@ -97,7 +97,7 @@ export default function PortfolioGridSection({
 
               <div className="p-6 bg-white">
                 <h3
-                  className="text-[#353638] font-montserrat font-normal"
+                  className="text-[#353638] font-normal"
                   style={{
                     fontSize: "18px",
                     lineHeight: "24px",

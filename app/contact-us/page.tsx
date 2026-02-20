@@ -43,7 +43,7 @@ export default function ContactUs() {
     <div className="bg-white w-full">
       <Header transparent whiteLogo />
 
-      <section className="relative w-full overflow-hidden font-montserrat">
+      <section className="relative w-full overflow-hidden font-[family-name:var(--font-montserrat)]">
         <div className="flex flex-col lg:flex-row">
           <div className="relative w-full lg:w-1/2 bg-[#267275] min-h-[500px] lg:min-h-[713px] flex flex-col justify-center py-12 sm:py-16 lg:py-20">
             <div className="absolute inset-0 pointer-events-none opacity-30">
@@ -142,7 +142,7 @@ export default function ContactUs() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-[#267275] text-white h-[48px] sm:h-[52px] lg:h-[56px] flex items-center justify-center text-[12px] sm:text-[13px] lg:text-[14px] tracking-[3px] sm:tracking-[3.6px] lg:tracking-[4.2px] uppercase font-bold hover:bg-[#1f5e61] transition-colors font-josefin disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-[#267275] text-white h-[48px] sm:h-[52px] lg:h-[56px] flex items-center justify-center text-[12px] sm:text-[13px] lg:text-[14px] tracking-[3px] sm:tracking-[3.6px] lg:tracking-[4.2px] uppercase font-bold hover:bg-[#1f5e61] transition-colors font-[family-name:var(--font-josefin)] disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {loading ? 'SENDING...' : 'SEND'}
               </button>

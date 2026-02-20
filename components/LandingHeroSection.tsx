@@ -104,26 +104,18 @@ export default function LandingHeroSection({
           opacity: currentSlide === 0 ? 1 : 0
         }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 lg:top-[189px] lg:translate-y-0 text-[32px] sm:text-[48px] lg:text-[75px] text-[#353638] uppercase font-montserrat font-normal w-full px-4 sm:px-8 lg:px-0"
+        className="absolute left-1/2 top-[189px] -translate-x-1/2 text-[75px] text-[#353638] uppercase whitespace-nowrap font-montserrat font-normal"
       >
-        {/* Mobile layout */}
-        <div className="lg:hidden flex flex-col items-center text-center gap-1">
-          <p className="leading-tight tracking-tight">Digital Solutions</p>
-          <p className="leading-tight tracking-tight">that drive</p>
-          <p className="leading-tight tracking-tight">business</p>
+        <div className="absolute left-[calc(50%-309px)] top-[49px] flex flex-col justify-center">
+          <p className="leading-[98px] tracking-tight">Digital Solutions</p>
         </div>
 
-        {/* Desktop layout */}
-        <div className="hidden lg:block relative h-[350px]">
-          <div className="absolute left-[calc(50%-309px)] top-[49px] flex flex-col justify-center">
-            <p className="leading-[98px] tracking-tight whitespace-nowrap">Digital Solutions</p>
-          </div>
-          <div className="absolute left-[calc(50%-408px)] top-[149px] flex flex-col justify-center">
-            <p className="leading-[98px] tracking-tight whitespace-nowrap">that drive</p>
-          </div>
-          <div className="absolute left-[calc(50%-209px)] top-[245px] flex flex-col justify-center">
-            <p className="leading-[98px] tracking-tight whitespace-nowrap">business</p>
-          </div>
+        <div className="absolute left-[calc(50%-408px)] top-[149px] flex flex-col justify-center">
+          <p className="leading-[98px] tracking-tight">that drive</p>
+        </div>
+
+        <div className="absolute left-[calc(50%-209px)] top-[245px] flex flex-col justify-center">
+          <p className="leading-[98px] tracking-tight">business</p>
         </div>
       </motion.div>
 
@@ -133,12 +125,12 @@ export default function LandingHeroSection({
           opacity: currentSlide === 2 ? 1 : 0
         }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[32px] sm:text-[48px] lg:text-[75px] text-white uppercase font-montserrat font-normal w-full px-4 sm:px-8 lg:px-0"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[75px] text-white uppercase font-montserrat font-normal"
       >
-        <div className="flex flex-col items-center gap-1 lg:gap-2">
-          <p className="leading-tight lg:leading-[98px] tracking-tight whitespace-nowrap text-center lg:text-start w-full">Your Next</p>
-          <p className="leading-tight lg:leading-[98px] tracking-tight whitespace-nowrap text-center">Premium</p>
-          <p className="leading-tight lg:leading-[98px] tracking-tight whitespace-nowrap text-center">Software Solution</p>
+        <div className="flex flex-col items-center gap-2">
+          <p className="leading-[98px] tracking-tight whitespace-nowrap text-start w-full">Your Next</p>
+          <p className="leading-[98px] tracking-tight whitespace-nowrap text-center">Premium</p>
+          <p className="leading-[98px] tracking-tight whitespace-nowrap text-center">Software Solution</p>
         </div>
       </motion.div>
 
@@ -163,14 +155,14 @@ export default function LandingHeroSection({
           duration: 0.3,
           ease: "easeInOut"
         }}
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[#353638] uppercase font-montserrat font-normal w-full px-4 sm:px-8 lg:px-0"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[#353638] uppercase font-montserrat font-normal"
       >
         <div className="flex flex-col items-center text-center">
-          <p className="text-[32px] sm:text-[48px] lg:text-[75px] leading-tight lg:leading-[98px] tracking-tight text-center lg:text-start w-full lg:pl-24">We deliver</p>
+          <p className="text-[75px] leading-[98px] tracking-tight text-start w-full pl-24">We deliver</p>
 
-          <p className="text-[32px] sm:text-[48px] lg:text-[75px] leading-tight lg:leading-[98px] tracking-tight">premium websites</p>
+          <p className="text-[75px] leading-[98px] tracking-tight">premium websites</p>
 
-          <p className="text-[32px] sm:text-[48px] lg:text-[75px] leading-tight lg:leading-[98px] tracking-tight text-center lg:text-end w-full lg:mr-[-120px]">& digital systems</p>
+          <p className="text-[75px] leading-[98px] tracking-tight text-end w-full mr-[-120px]">& digital systems</p>
         </div>
       </motion.div>
 

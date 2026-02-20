@@ -89,7 +89,7 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
   return (
     <section className="w-full py-16 lg:py-24 bg-[#eee]">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-[48px] lg:text-[78px] leading-[80px] text-[#252525] font-montserrat font-light uppercase mb-12 lg:mb-20">
+        <h2 className="text-[48px] lg:text-[78px] leading-[80px] text-[#252525] font-light uppercase mb-12 lg:mb-20">
           What we<br />build
         </h2>
       </div>
@@ -117,7 +117,7 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
                 className="bg-white shadow-[0px_6px_45px_0px_rgba(0,0,0,0.18)] w-[396px] p-[36px] py-[40px] transition-all duration-500"
                 style={{ minHeight: "430px" }}
               >
-                <h3 className="text-[#252525] text-[18px] font-montserrat font-bold uppercase mb-2 tracking-[-0.36px] leading-[36px]">
+                <h3 className="text-[#252525] text-[18px] font-bold uppercase mb-2 tracking-[-0.36px] leading-[36px]">
                   {services[prevIndex].title}
                 </h3>
 
@@ -152,7 +152,7 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
                 className="bg-white shadow-[0px_6px_45px_0px_rgba(0,0,0,0.18)] w-[396px] p-[40px] py-[40px] transition-all duration-500"
                 style={{ minHeight: "480px" }}
               >
-                <h3 className="text-[#252525] text-[18px] font-montserrat font-bold uppercase mb-2 tracking-[-0.36px] leading-[36px]">
+                <h3 className="text-[#252525] text-[18px] font-bold uppercase mb-2 tracking-[-0.36px] leading-[36px]">
                   {services[centerIndex].title}
                 </h3>
 
@@ -188,7 +188,7 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
                 className="bg-white shadow-[0px_6px_45px_0px_rgba(0,0,0,0.18)] w-[396px] p-[36px] py-[40px] transition-all duration-500"
                 style={{ minHeight: "430px" }}
               >
-                <h3 className="text-[#252525] text-[18px] font-montserrat font-bold uppercase mb-2 tracking-[-0.36px] leading-[36px]">
+                <h3 className="text-[#252525] text-[18px] font-bold uppercase mb-2 tracking-[-0.36px] leading-[36px]">
                   {services[nextIndex].title}
                 </h3>
 

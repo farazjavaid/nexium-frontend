@@ -49,7 +49,7 @@ export default function StatsSection({ stats = defaultStats }: StatsSectionProps
                 {stat.number}
               </h3>
               <p
-                className="text-[#353638] font-montserrat max-w-[321px]"
+                className="text-[#353638] max-w-[321px]"
                 style={{
                   fontSize: "20px",
                   letterSpacing: "-0.32px",

@@ -110,7 +110,7 @@ export default function ServicesCarousel({
     >
       <div className="max-w-7xl mx-auto px-4 lg:px-20">
         {title && (
-          <h2 className="text-[48px] lg:text-[78px] leading-[80px] text-[#252525] font-montserrat font-light uppercase mb-12 lg:mb-20">
+          <h2 className="text-[48px] lg:text-[78px] leading-[80px] text-[#252525] font-light uppercase mb-12 lg:mb-20">
             {title}
           </h2>
         )}
@@ -142,7 +142,7 @@ export default function ServicesCarousel({
                       }`}
                       onClick={() => scrollTo(index)}
                     >
-                      <h3 className="text-[#252525] text-[18px] font-montserrat font-bold uppercase mb-6 tracking-[-0.36px] leading-[36px]">
+                      <h3 className="text-[#252525] text-[18px] font-bold uppercase mb-6 tracking-[-0.36px] leading-[36px]">
                         {service.title}
                       </h3>
 

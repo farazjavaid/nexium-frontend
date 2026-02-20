@@ -7,7 +7,7 @@ export default function OutgrownSection() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="mb-12 lg:mb-16 flex flex-col lg:flex-row lg:items-center lg:gap-22 relative">
           <h2
-            className="text-[#353638] font-montserrat font-light uppercase mb-6 lg:mb-0 lg:flex-shrink-0"
+            className="text-[#353638] font-light uppercase mb-6 lg:mb-0 lg:flex-shrink-0"
             style={{
               fontSize: "48px",
               lineHeight: "67px",
@@ -18,7 +18,7 @@ export default function OutgrownSection() {
           </h2>
           <div className="relative">
             <p
-              className="text-[#727272] font-montserrat max-w-[718px]"
+              className="text-[#727272] max-w-[718px]"
               style={{
                 fontSize: "17px",
                 lineHeight: "30px",

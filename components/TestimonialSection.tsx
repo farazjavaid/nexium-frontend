@@ -90,12 +90,7 @@ export default function TestimonialSection({
           </span>
 
           <blockquote
-            className="text-[#353638] text-start mb-12 pt-12"
-            style={{
-              fontSize: "56px",
-              lineHeight: "64px",
-              fontWeight: 400,
-            }}
+            className="text-[24px] lg:text-[56px] leading-tight lg:leading-[64px] font-normal text-[#353638] text-start mb-12 pt-12"
           >
             &ldquo;{currentTestimonial.quote}&rdquo;
           </blockquote>

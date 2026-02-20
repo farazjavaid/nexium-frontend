@@ -5,7 +5,7 @@ export default function ContactFormSection() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-20">
           <div className="flex flex-col justify-start pt-4">
             <p className="text-[#353638] font-montserrat font-semibold text-[22px] lg:text-[28px] mb-10">Collaborate with us</p>
-            <h2 className="text-[56px] lg:text-[80px] text-[#353638] font-montserrat font-normal capitalize mb-8 leading-[1.15] tracking-[-0.8px]">
+            <h2 className="text-[36px] lg:text-[80px] text-[#353638] font-montserrat font-normal capitalize mb-8 leading-[1.15] tracking-[-0.8px]">
               Let&apos;s Build <br /> Something <br /> Great
             </h2>
             <p className="text-[#353638] text-[18px] lg:text-[22px] leading-[1.6] max-w-lg">
@@ -13,7 +13,7 @@ export default function ContactFormSection() {
             </p>
           </div>
 
-          <div className="bg-white px-10 pt-[60px] pb-[80px] mt-40 z-9">
+          <div className="bg-white px-6 lg:px-10 pt-10 lg:pt-[60px] pb-10 lg:pb-[80px] mt-8 lg:mt-40 z-9">
             <form className="space-y-10">
               <div className="border-b-2 border-[#e4e4e4] pb-3">
                 <input
@@ -47,7 +47,7 @@ export default function ContactFormSection() {
                 </label>
               </div>
 
-              <div className="pt-20">
+              <div className="pt-8 lg:pt-20">
               <button
                 type="submit"
                 className="bg-[#267275] text-white px-16 py-5 text-[14px] tracking-[4.2px] uppercase font-montserrat font-bold hover:bg-[#1e5a5d] transition-colors w-full"

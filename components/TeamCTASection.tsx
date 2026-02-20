@@ -27,7 +27,7 @@ export default function TeamCTASection({
     <section className="w-full py-16 lg:py-20 px-4 lg:px-20 bg-[#fff]">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between bg-[#267275] gap-8 px-8 lg:px-16 py-12 lg:py-16">
-          <div>
+          <div className="text-center lg:text-left w-full lg:w-auto">
             {topText && (
               <p className="text-white font-montserrat text-xl mb-4">{topText}</p>
             )}
@@ -37,7 +37,7 @@ export default function TeamCTASection({
           </div>
           <button
             onClick={handleClick}
-            className="bg-white text-[#267275] px-8 py-4 text-sm tracking-widest uppercase font-montserrat font-bold hover:bg-gray-100 transition-colors whitespace-nowrap"
+            className="w-full lg:w-auto bg-white text-[#267275] px-8 py-4 text-sm tracking-widest uppercase font-montserrat font-bold hover:bg-gray-100 transition-colors whitespace-nowrap"
           >
             {buttonText}
           </button>

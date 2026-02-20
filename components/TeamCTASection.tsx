@@ -31,7 +31,7 @@ export default function TeamCTASection({
             {topText && (
               <p className="text-white font-montserrat text-xl mb-4">{topText}</p>
             )}
-            <h2 className="text-3xl lg:text-5xl text-white font-montserrat font-normal uppercase max-w-3xl">
+            <h2 className="text-3xl lg:text-5xl text-white font-montserrat font-normal uppercase max-w-4xl">
               {heading}
             </h2>
           </div>

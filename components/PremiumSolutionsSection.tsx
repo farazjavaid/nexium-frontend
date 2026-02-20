@@ -41,26 +41,17 @@ export default function PremiumSolutionsSection({
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="mb-12 lg:mb-20">
           <p
-            className="text-[#353638] font-montserrat font-semibold mb-2"
-            style={{
-              fontSize: "22px",
-              lineHeight: "67px",
-            }}
+            className="text-[22px] leading-tight lg:leading-[67px] text-[#353638] font-montserrat font-semibold mb-2"
           >
             Elevating Ideas into
           </p>
           <h2
-            className="text-[#353638] font-montserrat font-light uppercase mb-8"
-            style={{
-              fontSize: "78px",
-              lineHeight: "80px",
-              letterSpacing: "0.64px",
-            }}
+            className="text-[38px] lg:text-[78px] leading-tight lg:leading-[80px] tracking-[0.64px] text-[#353638] font-montserrat font-light uppercase mb-8"
           >
             PREMIUM<br />SOLUTIONS
           </h2>
           <p
-            className="text-[#727272] max-w-[718px] mx-auto pt-12"
+            className="text-[#727272] max-w-[718px] mx-auto pt-6 lg:pt-12"
             style={{
               fontSize: "17px",
               lineHeight: "30px",
@@ -70,7 +61,7 @@ export default function PremiumSolutionsSection({
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-12 lg:gap-y-26 max-w-[718px] mx-auto py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-32 gap-y-12 lg:gap-y-26 max-w-[718px] mx-auto py-12 pl-12 lg:pl-0">
           {services.map((service, index) => (
             <div key={index} className="relative">
               <Image

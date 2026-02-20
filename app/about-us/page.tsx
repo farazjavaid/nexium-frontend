@@ -120,7 +120,7 @@ export default function AboutUs() {
             Why clients<br />choose us
           </h2>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-x-16 gap-y-28 ps-0 lg:ps-28">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-x-16 gap-y-12 lg:gap-y-28 ps-0 lg:ps-28">
             <div className="flex flex-row gap-5">
               <div className="flex-shrink-0 w-[66px] h-[68px] relative">
                 <Image alt="" src={imgTailorBuildsIcon} fill className="object-contain" />

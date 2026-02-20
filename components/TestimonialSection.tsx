@@ -106,7 +106,7 @@ export default function TestimonialSection({
                 className="text-[#353638]"
                 style={{
                   fontSize: "26px",
-                  fontFamily: "'Josefin Sans', sans-serif",
+                  fontFamily: "var(--font-josefin)",
                   lineHeight: "40px",
                   letterSpacing: "-0.52px",
                 }}

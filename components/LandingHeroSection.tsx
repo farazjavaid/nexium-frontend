@@ -104,7 +104,7 @@ export default function LandingHeroSection({
           opacity: currentSlide === 0 ? 1 : 0
         }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="absolute left-1/2 top-[189px] -translate-x-1/2 text-[75px] text-[#353638] uppercase whitespace-nowrap font-montserrat font-normal"
+        className="absolute left-1/2 top-[189px] -translate-x-1/2 text-[32px] sm:text-[48px] lg:text-[75px] text-[#353638] uppercase whitespace-nowrap font-montserrat font-normal"
       >
         <div className="absolute left-[calc(50%-309px)] top-[49px] flex flex-col justify-center">
           <p className="leading-[98px] tracking-tight">Digital Solutions</p>
@@ -125,7 +125,7 @@ export default function LandingHeroSection({
           opacity: currentSlide === 2 ? 1 : 0
         }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
-        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[75px] text-white uppercase font-montserrat font-normal"
+        className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[32px] sm:text-[48px] lg:text-[75px] text-white uppercase font-montserrat font-normal"
       >
         <div className="flex flex-col items-center gap-2">
           <p className="leading-[98px] tracking-tight whitespace-nowrap text-start w-full">Your Next</p>
@@ -158,11 +158,11 @@ export default function LandingHeroSection({
         className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-[#353638] uppercase font-montserrat font-normal"
       >
         <div className="flex flex-col items-center text-center">
-          <p className="text-[75px] leading-[98px] tracking-tight text-start w-full pl-24">We deliver</p>
+          <p className="text-[32px] sm:text-[48px] lg:text-[75px] leading-[98px] tracking-tight text-start w-full pl-24">We deliver</p>
 
-          <p className="text-[75px] leading-[98px] tracking-tight">premium websites</p>
+          <p className="text-[32px] sm:text-[48px] lg:text-[75px] leading-[98px] tracking-tight">premium websites</p>
 
-          <p className="text-[75px] leading-[98px] tracking-tight text-end w-full mr-[-120px]">& digital systems</p>
+          <p className="text-[32px] sm:text-[48px] lg:text-[75px] leading-[98px] tracking-tight text-end w-full mr-[-120px]">& digital systems</p>
         </div>
       </motion.div>
 

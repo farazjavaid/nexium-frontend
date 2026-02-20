@@ -49,15 +49,7 @@ export default function WhyChooseUsSection({
     <section className="w-full py-16 lg:py-24 px-4 lg:px-20 bg-[#1f1f1f] relative overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10">
         <h2
-          className="mb-12 lg:mb-16 font-montserrat uppercase"
-          style={{
-            color: "#FFF",
-            fontSize: "78px",
-            fontStyle: "normal",
-            fontWeight: 400,
-            lineHeight: "80px",
-            letterSpacing: "0.5px",
-          }}
+          className="text-[38px] lg:text-[78px] leading-tight lg:leading-[80px] tracking-[0.5px] text-white mb-12 lg:mb-16 font-montserrat font-normal uppercase"
         >
           Why clients<br />choose us
         </h2>

@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-
 interface TeamCTASectionProps {
   topText?: string;
   heading: string;
@@ -33,25 +31,16 @@ export default function TeamCTASection({
             {topText && (
               <p className="text-white font-montserrat text-xl mb-4">{topText}</p>
             )}
-            <h2 className="text-xl sm:text-2xl lg:text-[48px] leading-tight lg:leading-[53px] text-white font-montserrat font-normal uppercase max-w-3xl lg:max-w-[640px]">
+            <h2 className="text-3xl lg:text-5xl text-white font-montserrat font-normal uppercase max-w-3xl">
               {heading}
             </h2>
           </div>
-          {buttonLink ? (
-            <Link
-              href={buttonLink}
-              className="w-full lg:w-auto bg-white text-[#267275] px-8 py-4 text-[16px] tracking-[1.44px] uppercase font-montserrat font-bold hover:bg-gray-100 transition-colors whitespace-nowrap text-center inline-block"
-            >
-              {buttonText}
-            </Link>
-          ) : (
-            <button
-              onClick={handleClick}
-              className="w-full lg:w-auto bg-white text-[#267275] px-8 py-4 text-[16px] tracking-[1.44px] uppercase font-montserrat font-bold hover:bg-gray-100 transition-colors whitespace-nowrap"
-            >
-              {buttonText}
-            </button>
-          )}
+          <button
+            onClick={handleClick}
+            className="w-full lg:w-auto bg-white text-[#267275] px-8 py-4 text-sm tracking-widest uppercase font-montserrat font-bold hover:bg-gray-100 transition-colors whitespace-nowrap"
+          >
+            {buttonText}
+          </button>
         </div>
       </div>
     </section>

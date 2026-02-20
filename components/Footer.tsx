@@ -8,7 +8,7 @@ const imgVector = "/images/about-us/vector.svg";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#1c1c1c] text-white pt-[181px] pb-16 px-4 lg:px-20 relative overflow-hidden">
+    <footer className="w-full bg-[#1c1c1c] text-white pt-16 lg:pt-[181px] pb-16 px-4 lg:px-20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[552px_228px_1fr] gap-x-12 gap-y-12 mb-12">
           <div>

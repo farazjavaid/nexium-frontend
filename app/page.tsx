@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Header from "@/components/Header";
+import SplashScreen from "@/components/SplashScreen";
 import LandingHeroSection from "@/components/LandingHeroSection";
 import ClientLogosSection from "@/components/ClientLogosSection";
 import OutgrownSection from "@/components/OutgrownSection";
@@ -68,6 +69,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white">
+      <SplashScreen />
       <Header
         transparent
         whiteLogo={heroSlide === 2 || heroSlide === 3}

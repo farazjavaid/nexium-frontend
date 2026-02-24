@@ -105,7 +105,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
           </div>
 
           <div className="relative flex items-center justify-center min-h-[320px] lg:min-h-[520px]">
-            {/* Left card — desktop only */}
             <div
               className="hidden lg:block absolute transition-all duration-500 ease-in-out"
               style={{
@@ -142,7 +141,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
               </div>
             </div>
 
-            {/* Center card — always visible */}
             <div
               className="relative transition-all duration-500 ease-in-out w-full lg:w-auto"
               style={{
@@ -186,7 +184,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
               </div>
             </div>
 
-            {/* Right card — desktop only */}
             <div
               className="hidden lg:block absolute transition-all duration-500 ease-in-out"
               style={{
@@ -224,7 +221,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
             </div>
           </div>
 
-          {/* Desktop arrows — unchanged */}
           <button
             onClick={scrollPrev}
             className="hidden lg:flex absolute left-0 top-1/2 -translate-y-1/2 lg:-translate-x-16 w-10 h-10 lg:w-12 lg:h-12 bg-white hover:bg-[#267275] text-[#353638] hover:text-white border border-[#ddd] hover:border-[#267275] rounded items-center justify-center transition-all duration-300 shadow-md z-20 focus:outline-none focus-visible:outline-none"
@@ -246,7 +242,6 @@ export default function WhatWeBuildSection({ services }: WhatWeBuildSectionProps
           </button>
         </div>
 
-        {/* Mobile arrows — below card */}
         <div className="flex lg:hidden items-center justify-center gap-4 mt-8">
           <button
             onClick={scrollPrev}

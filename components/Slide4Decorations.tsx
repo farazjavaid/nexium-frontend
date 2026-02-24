@@ -15,16 +15,10 @@ export default function Slide4Decorations() {
         />
       </div>
 
-      <motion.div 
-          animate={{
-            rotate: 360
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            ease: "linear"
-          }}
-      className="absolute right-[400px] top-[0px] w-[300px] h-[290px]">
+      <motion.div
+        animate={{ rotate: 360 }}
+        transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+        className="absolute right-[400px] top-[0px] w-[300px] h-[290px]">
         <Image
           src="/images/landing/Polygon 1.svg"
           alt="Group 329 decoration"
@@ -34,15 +28,9 @@ export default function Slide4Decorations() {
       </motion.div>
 
       <div className="absolute left-[66px] bottom-0 w-[800px] h-[400px] overflow-hidden">
-        <motion.div 
-          animate={{
-            rotate: 360
-          }}
-          transition={{
-            duration: 20,
-            repeat: Infinity,
-            ease: "linear"
-          }}
+        <motion.div
+          animate={{ rotate: 360 }}
+          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
           className="absolute left-0 -bottom-[400px] w-[800px] h-[800px]"
         >
           <Image

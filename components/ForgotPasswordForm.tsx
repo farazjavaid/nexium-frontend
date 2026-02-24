@@ -15,12 +15,7 @@ export default function ForgotPasswordForm() {
     setLoading(true);
 
     try {
-      // Simulate API call for password reset
       await new Promise((resolve) => setTimeout(resolve, 1500));
-
-      // In a real application, you would call your API here
-      // await authService.forgotPassword(email);
-
       setSuccess(true);
     } catch (err) {
       setError("Failed to send reset link. Please try again.");

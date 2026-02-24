@@ -122,7 +122,6 @@ export default function ServicesCarousel({
                 const tweenValue = tweenValues[index] || 0;
                 const scale = 0.9 + tweenValue * 0.15;
                 const opacity = 0.7 + tweenValue * 0.3;
-                const translateY = (1 - tweenValue) * 0;
 
                 return (
                   <div
